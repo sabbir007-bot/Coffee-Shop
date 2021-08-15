@@ -2,9 +2,12 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coffee Shop</title>
    <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" data-template-style="true" type="text/css" href="css/CSTiles-1.1.0.css">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
  
@@ -23,17 +26,16 @@
 <!-- Home Section !-->
 
 <section class="banner" id="Home">
-  <div class="row">
-   <div class="col-md-12">
-    <div class="welcome"> 
-      <div class="container">
-       <p>Welcome To The Coffee Shop</p>
-        <h1>BEST COFFEE IN THE TOWN!</h1>  
-      </div> 
-    </div>
+<div class="container">
+   <div class="row">
+    <div class="col-md-12">
+      <div class="welcome"> 
+        <p>Welcome To The Coffee Shop</p>
+         <h1>BEST COFFEE IN THE TOWN!</h1>  
+       </div> 
+     </div>
   <div>
  </div>
-</div>
 </section> 
 <!-- Menu Section !-->
 
@@ -101,8 +103,61 @@
          </div>
         </div>
       </div>
-     </div>         
+     </div>
+  </div>         
 </section>
+
+<!-- Gallery -->
+<section class="gallery" id="Gallery">
+  <div>
+    <h5>Gallery</h5>
+  </div>
+</section>
+<div class="row">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <img
+      src="image/gallery-1.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+
+    <img
+      src="image/gallery-2.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="image/gallery-3.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+
+    <img
+      src="image/gallery-4.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="image/gallery-5.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+
+    <img
+      src="image/gallery-6.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+  </div>
+</div>
+</section>
+
 <!-- Contact Us Section -->
 
 <section class="contact" id="Contact">
@@ -127,7 +182,7 @@
                    </div>
                </div>
                     <div class="box">
-              <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+              <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
                        <div class="text">
                        <h3>E-mail</h3>
                        <p>coffeeshop@gmail.com</p>
@@ -179,6 +234,9 @@
             
          </div>
 </section>
+
+
+
 
 </body>
 </html>
